@@ -1,0 +1,42 @@
+<!DOCTYPE HTML5>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>TODO</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer type="text/javascript" src="api-client.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+  </head>
+
+  <body>
+    <main class="container">
+      <hr class="break" />
+      <div>
+        <h4 id="datum"></h4>
+        <br />
+      </div>
+      <hr class="break" />
+
+      <p>Voeg toe:</p>
+      <div class="input">
+        <input
+          type="text"
+          id="taskField"
+          placeholder="bv. ramen zemen"
+          name="taskField"
+        />
+        <input type="submit" id="addTask" value="voeg toe" />
+      </div>
+      <hr class="break" />
+      <p>Taken:</p>
+      <div class="outcome">
+        <ul class="tasks"></ul>
+      </div>
+
+      <hr class="break" />
+    </main>
+  </body>
+</html>
